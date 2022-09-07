@@ -1,4 +1,4 @@
-function devolverString(str) {
+/* function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
     str = "Comenzando los ejercicios de la consigna 14"
@@ -39,24 +39,21 @@ console.log(multiplica())
   return (x === y) ? true : false;
   }
 
-  console.log(sonIguales(5,5))
+  console.log(sonIguales(5,5)) */
   
-/*   function tienenMismaLongitud(str1, str2) {
+  function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    str1 = "Hola que tal" 
-    str2 = "Todo bien y tu"
-
-    (str1.length === str2.length) ? "True" : "False"
+    return (str1.length === str2.length) ? true : false;
   }
-
-  console.log(tienenMismaLongitud()) */
+  console.log('**** tienenMismaLongitud ****')
+  console.log(tienenMismaLongitud("Hola","Hola"))
   
-/*   function menosQueNoventa(num) {
+ /*  function menosQueNoventa(num) {
     return (num <= 90) ? true : false;
   }
-  console.log(menosQueNoventa(10)) */
+  console.log(menosQueNoventa(10))
 
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -68,14 +65,14 @@ console.log(multiplica())
   }
   console.log(mayorQueCincuenta())
   
-/*   function obtenerResto(x, y) {
+  function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
     x = 5
     y = 10
     return x % y 
   }
-  console.log(obtenerResto()) */
+  console.log(obtenerResto())
   
   function esPar(num) {
     // Devuelve "true" si "num" es par
@@ -95,7 +92,7 @@ console.log(multiplica())
   }
   console.log(esImpar())
   
-/*   function elevarAlCuadrado(num) {
+  function elevarAlCuadrado(num) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
