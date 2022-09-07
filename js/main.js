@@ -271,5 +271,15 @@ console.log(multiplica())
     //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     // Si no es vocal, tambien debe devolver "Dato incorrecto".
     //Escribe tu código aquí
-    
+
+    letra = prompt("Ingrese una Vocal");
+        if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ){
+          console.log("Es Vocal")
+        }else if (letra.length !== 1) {
+          console.log("Dato Incorrecto")
+        } else{
+          console.log("Dato Incorrecto")
+        }
   }
+  esVocal();
+
