@@ -204,8 +204,8 @@ console.log(multiplica())
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
-    let area = alto * ancho
-    return area
+    
+    return alto * ancho
   }
   console.log('**** Funcion obtenerAreaRectangulo ****')
   console.log(obtenerAreaRectangulo(20,40))
