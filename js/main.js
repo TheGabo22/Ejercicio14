@@ -225,11 +225,11 @@ console.log(multiplica())
   
   
 (() => {
-  function areaDelTriangulo(base, altura){
+  function areaDelTriangulo(ancho, high){
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
-    let ancho = prompt("Dime la base del triangulo");
-    let high = prompt("Dime la altura del triangulo");
+    ancho = prompt("Dime la base del triangulo");
+    high = prompt("Dime la altura del triangulo");
     return("El area del triangulo es:" + " " +((ancho * high)/2));
   }
   console.log('**** Funcion areaDelTriangulo ****')
