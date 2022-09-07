@@ -36,74 +36,53 @@ console.log(multiplica())
   console.log(divide())
   
   function sonIguales(x, y) {
-    x = 5
-    y = 5
-    if(x == y){
-        return true
-    }else {
-        return false
-    }
+  return (x === y) ? true : false;
   }
-  console.log(sonIguales())
+
+  console.log(sonIguales(5,5))
   
-  function tienenMismaLongitud(str1, str2) {
+/*   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
     str1 = "Hola que tal" 
     str2 = "Todo bien y tu"
 
-    if(str1.length === str2.length){
-        return true
-    }else {
-        return false
-    }
+    (str1.length === str2.length) ? "True" : "False"
   }
-  console.log(tienenMismaLongitud())
+
+  console.log(tienenMismaLongitud()) */
   
-  function menosQueNoventa(num) {
-    num = 80
-    if(num <= 90){
-        return true
-    } else {
-        return false
-    }
+/*   function menosQueNoventa(num) {
+    return (num <= 90) ? true : false;
   }
-  console.log(menosQueNoventa())
-  
+  console.log(menosQueNoventa(10)) */
+
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
     
-    num = 49
-    if(num > 50){
-        return true
-    }else {
-        return false
-    }
+    num = 55
+    return (num > 50) ? true : false;
   }
   console.log(mayorQueCincuenta())
   
-  function obtenerResto(x, y) {
+/*   function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
     x = 5
     y = 10
     return x % y 
   }
-  console.log(obtenerResto())
+  console.log(obtenerResto()) */
   
   function esPar(num) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
     num = 20
-    if(num % 2 == 0){
-        return true
-    } else {
-        return false
-    }
+    return (num % 2 == 0) ? true : false;
   }
   console.log(esPar())
   
@@ -112,15 +91,11 @@ console.log(multiplica())
     // De lo contrario, devuelve "false"
     // Tu código:
     num = 19
-    if(num % 2 == 0){
-        return true
-    } else {
-        return false
-    }
+    return (num % 2 !== 0) ? true : false
   }
   console.log(esImpar())
   
-  function elevarAlCuadrado(num) {
+/*   function elevarAlCuadrado(num) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
@@ -283,3 +258,4 @@ console.log(multiplica())
   }
   esVocal();
 
+ */
